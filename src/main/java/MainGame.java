@@ -5,7 +5,7 @@ public class MainGame {
     {
         Scanner scan = new Scanner(System.in);
 
-        GameBoard Board = new GameBoard(20);
+        GameBoard Board = new GameBoard(6);
 
         Player Player = new Player(Board.getSize()/2, Board.getSize()/2);
 
