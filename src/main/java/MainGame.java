@@ -29,8 +29,8 @@ public class MainGame {
 
         Gson gson = new Gson();
         String PlayerJson = gson.toJson(Player);
-        String BoardJson = gson.toJson(Player);
-        String AppleJson = gson.toJson(Player);
+        String BoardJson = gson.toJson(Board);
+        String AppleJson = gson.toJson(Apple);
         System.out.println(PlayerJson);
         System.out.println(BoardJson);
         System.out.println(AppleJson);
