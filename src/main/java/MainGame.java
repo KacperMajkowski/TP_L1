@@ -1,3 +1,4 @@
+import com.google.gson.Gson;
 import java.util.Scanner;
 
 public class MainGame {
@@ -25,5 +26,13 @@ public class MainGame {
             Board.printBoard(Player.getX(), Player.getY(), Apple.getX(), Apple.getY());
             Player.PrintScore();
         }
+
+        Gson gson = new Gson();
+        String PlayerJson = gson.toJson(Player);
+        String BoardJson = gson.toJson(Player);
+        String AppleJson = gson.toJson(Player);
+        System.out.println(PlayerJson);
+        System.out.println(BoardJson);
+        System.out.println(AppleJson);
     }
 }
