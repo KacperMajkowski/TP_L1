@@ -1,3 +1,5 @@
+package org.example.TPL1;
+
 import java.util.Random;
 
 public class Apple {

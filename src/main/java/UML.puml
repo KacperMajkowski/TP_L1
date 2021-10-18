@@ -1,13 +1,27 @@
 @startuml
-'https://plantuml.com/sequence-diagram
 
-autonumber
+class GameBoard
+{
+    int size;
+}
 
-GameBoard -> Player: Create
-GameBoard -> Apple: Create
+class Player
+{
+    int x;
+    int y;
+    int score;
+}
+
+class Apple
+{
+    int x;
+    int y;
+
+    NewApple();
+}
+
+GameBoard -> Player: Print
+GameBoard -> Apple: Print
 Player -> Apple: Collect
-Player -> Player: Increase score
-Apple -> Apple: Create new
-
 
 @enduml

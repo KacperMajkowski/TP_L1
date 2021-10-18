@@ -1,3 +1,5 @@
+package org.example.TPL1;
+
 public class Player {
 
     int x;
