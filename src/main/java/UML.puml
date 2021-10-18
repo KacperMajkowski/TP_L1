@@ -23,5 +23,6 @@ class Apple
 GameBoard -> Player: Print
 GameBoard -> Apple: Print
 Player -> Apple: Collect
+Apple -> Apple: Create new
 
 @enduml
