@@ -8,7 +8,7 @@ public class MainGame {
     {
         Scanner scan = new Scanner(System.in);
 
-        GameBoard Board = new GameBoard(12);
+        GameBoard Board = new GameBoard(16);
 
         Player Player = new Player(Board.getSize()/2, Board.getSize()/2);
 
